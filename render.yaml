@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: first-server-php
+    env: docker
+    plan: free
+    dockerfilePath: Dockerfile
